@@ -1,0 +1,24 @@
+WORKFLOW - NOTES
+Step 1:
+Retrieved EGFP nucleotide sequence from NCBI in FASTA format.
+
+Step 2:
+Imported sequence into SnapGene Viewer for visualization and PAM identification.
+
+Step 3:
+Identified Cas9 PAM motifs (NGG) in the sequence.
+
+Step 4:
+Uploaded sequence into CHOPCHOP for guide RNA prediction.
+
+Step 5:
+Filtered guide RNAs based on:
+- Efficiency score
+- MM0/MM1/MM2/MM3 values
+- GC content
+
+Step 6:
+Selected top 3 guide RNAs.
+
+Step 7:
+Validated selected guides using CHOPCHOP.
